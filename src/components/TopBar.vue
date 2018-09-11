@@ -22,8 +22,8 @@ export default {
   computed: {// 计算属性是基于它们的依赖进行缓存的,只有在相关依赖发生改变时他们才会重新求值
     userName () {
       debugger
-      // return user.name
-      return this.currentUser + ' test'
+      return user.name
+      // return this.currentUser + ' test'
     }
   },
   mounted: function () { // el挂载到实例上后调用
